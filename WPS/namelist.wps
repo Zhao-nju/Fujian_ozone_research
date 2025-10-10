@@ -1,0 +1,38 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 2,
+ start_date = '2022-07-01_00:00:00','2022-07-01_00:00:00',
+ end_date   = '2022-07-31_21:00:00','2022-07-31_21:00:00',
+ interval_seconds = 10800,
+ opt_output_from_geogrid_path = './',
+ io_form_geogrid = 2,
+/
+
+&geogrid
+ parent_id         =   1,   1,
+ parent_grid_ratio =   1,   5,
+ i_parent_start    =   1,   40,
+ j_parent_start    =   1,   22,
+ e_we              =  120,  211,
+ e_sn              =  90,   211,
+ geog_data_res = 'modis_15s+default','modis_15s+default',
+ dx = 15000,   
+ dy = 15000,
+ map_proj = 'lambert',
+ ref_lat   =  25,
+ ref_lon   =  119,
+ truelat1  =  25.0,
+ truelat2  =  47.0,
+ stand_lon =  110,
+ geog_data_path = '/data2/Student/Previous/Student2023/StudentC/wps_data/V37' 
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'ERA5',
+/
+
+&metgrid
+ fg_name = 'ERA5'
+ io_form_metgrid = 2, 
+/
