@@ -1,8 +1,9 @@
 # WPS
 ## WPS settings
-The settings are specified in **namelist.wps**.
+The settings for WPS are specified in **namelist.wps**.
   
-## 
+## Initial and boundary conditions
+ERA5 reanalysis data was processed through WPS to generate initial and boundary conditions for the simulation.  
 
 ## OBSGRID
 Observational surface and upper-air data were assimilated using **OBSGRID** to improve the simulation of meteorological fields.  
