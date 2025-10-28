@@ -1,0 +1,2 @@
+Ozone was measured by the Thermo Scientific Model 49i, and NOx was measured by the Thermo Scientific Model 42i.
+The information of equipment can be found at https://tools.thermofisher.com/content/sfs/brochures/EPM-49i-Datasheet.pdf and https://documents.thermofisher.cn/TFS-Assets/LSG/manuals/EPM-manual-Model%2042i.pdf
